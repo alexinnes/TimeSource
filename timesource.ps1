@@ -36,7 +36,7 @@ function Get-TimeSource {
 }
 
 
-$server = Get-ADComputer -Filter {operatingsystem -like "*server*"}
+
 
 
 
