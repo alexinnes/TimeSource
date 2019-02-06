@@ -5,7 +5,8 @@ $server = Get-ADComputer -Filter {operatingsystem -like "*server*"}
 
 function Get-TimeSource {
     [CmdletBinding()]
-    param ([mandi]
+    param (
+        [Parameter(manditory =$true)]
 
         $server
     )
